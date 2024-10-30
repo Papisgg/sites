@@ -1,0 +1,865 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #F6F6F6;
+
+}
+
+.page {
+    padding: 20px 40px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+@media (max-width: 1440px) {
+    .page {
+        width: 100%;
+    }
+}
+
+.header {
+    background-color: #2A66E7;
+    padding: 17px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 23px;
+    margin-bottom: 24px;
+
+}
+
+
+.bt {
+    display: inline;
+    margin-left: auto;
+    padding: 22px 29px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E21;
+    border: none;
+    border-radius: 19px;
+    background-color: #ffff;
+}
+
+.phone {
+    display: inline;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 32px;
+
+}
+
+.navlink {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 32px ;
+}
+
+.gl {
+    display: flex;
+    padding: 24px;
+
+    border-radius: 23px;
+
+    background-color: #ffff;
+}
+.poproshe {
+    margin-left: 38px;
+}
+
+.title {
+    font-size: 63px;
+    font-weight: 700;
+    margin-top: 39px;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 60px 0;
+}
+
+.bt2 {
+    font-size: 24;
+    font-weight: 500;
+    color: #fff;
+    padding: 28px 37px;
+
+    border: none;
+    border-radius: 19px;
+
+    background-color: #294CFB;
+}
+
+.blue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 79px;
+    margin-top: 32px;
+    margin-bottom: 21px;
+
+    border-radius: 60px 60px 30px 30px;
+
+    background-color: #294CFB;
+}
+
+.opit {
+    text-align: center;
+    max-width: 330px;
+}
+
+.opit img {
+    margin-bottom: 15px;
+}
+
+.blue .text {
+    margin: 0;
+    color: #fff;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 24px 0 65px 0;
+}
+
+.gldoctor {
+    display: flex;
+    align-items: center;
+
+    max-width: 336px;
+}
+
+.gldoctor img {
+    margin: 0 13px 0 14px;
+}
+
+.who {
+    color: #294CFB;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.stazge {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(61, 61, 61, .47);
+    margin: 0;
+}
+
+.poproshe2 {
+    margin-right: 38px;
+}
+
+.txt2 .title {
+    margin-top: 16px;
+}
+
+.doctors {
+    display: flex;
+
+    margin: 24px 0;
+}
+
+.doctor {
+    margin-right: 24px;
+    width: 32%;
+}
+
+.doctors .doctor:last-child {
+    margin-right: 0;
+}
+
+.img-cont {
+    position: relative;
+}
+
+.img-cont img {
+    width: 100%;
+}
+
+.Internship {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+    padding: 10px 14px;
+    width: fit-content;
+
+    background-color: #294CFB;
+    border-radius: 16px;
+}
+
+.Internship-text {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service1,
+.service2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 45%;
+    padding: 24px;
+    min-height: 345px;
+
+    border-radius: 21px;
+}
+
+.service1 {
+    background-image: url(img/service1.png);
+    background-size: cover;
+}
+
+.service2 {
+    background-image: url(img/service2.png);
+    background-size: cover;
+}
+
+.service-title {
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+
+    display: block;
+    max-width: 85%;
+}
+
+.bt3 {
+    padding: 28px 37px;
+    margin-top: auto;
+    max-width: 50%;
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+
+    border: 1px solid #fff;
+    border-radius: 16px;
+
+    background: none;
+}
+
+.principles-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principle {
+    flex: 1 1 50%;
+    margin-right: 16px;
+    margin-bottom: 65px;
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background-color: #fff;
+}
+
+.principles-cont .principle:last-child {
+    margin-right: 0;
+}
+
+.principle-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+
+    border-radius: 20px;
+}
+
+.form-cont {
+    max-width: 48%;
+    margin-left: 32px;
+}
+
+form {
+    padding: 32px;
+
+    border-radius: 17px;
+
+    background-color: #F0F0F0;
+}
+
+.form-input {
+    padding: 20px;
+    margin-bottom: 14px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(69, 64, 64, .67);
+
+    border: 1px solid #294CFB;
+    border-radius: 21px;
+
+    background-color: #fff;
+}
+
+.form-input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+form textarea { resize: none; }
+
+form textarea { resize: vertical; }
+
+.smalltext {
+    font-size: 16px;
+    color:rgba(69, 64, 64, .67);
+    margin: 0;
+}
+
+.submit {
+    width: 100%;
+    padding: 23px 0;
+    margin-top: 19px;
+    font-size: 24px;
+    color: #fff;
+
+    border: none;
+    border-radius: 21px;
+
+    background-color: #294CFB;
+}
+
+.lastsubtitle {
+    font-size: 32px;
+}
+
+.title.lust {
+    margin-top: 27px;
+}
+
+@media (max-width: 1240px) {
+    .poproshe {
+        width: 50%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 52px;
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+
+    .info {
+        font-size: 32px;
+    }
+
+    .bt3 {
+        width: 53%;
+    }
+
+    .lastsubtitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .bt {
+        display: none;
+    }
+
+    .blue {
+        padding: 22px 48px;
+    }
+
+    .info {
+        font-size: 26px;
+    }
+    .poproshe2 {
+        width: 48%;
+    }
+
+    .service-title {
+        font-size: 32px;
+    }
+
+    .bt3 {
+        max-width: 65%;
+        width: 65%;
+        padding: 22px 33px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 940px) {
+    .title {
+        font-size: 42px;
+        margin-top: 22px;
+        margin-bottom: 14px;
+    }
+
+    .bt2 {
+        padding: 22px 30px;
+    }
+
+    .service1, .service2 {
+        width: 43%;
+        min-height: 265px;
+    }
+
+    .service-title {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 30px 0;
+    }
+
+    .form-cont {
+        max-width: 55%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 840px) {
+    .title {
+        font-size: 32px;
+        margin-top: 16px;
+    }
+
+    .title.lust {
+        margin-top: 10px;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0 0 30px 0;
+    }
+
+    .bt2 {
+        padding: 18px 26px;
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .text {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0 0 30px 0;
+    }
+
+    .bt3 {
+        max-width: 65%;
+        width: 65%;
+        padding: 16px 25px;
+        font-size: 18px;
+    }
+
+    .lastsubtitle {
+        font-size: 24px;
+    }
+
+    .form-input {
+        padding: 18px;
+        margin-bottom: 14px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(69, 64, 64, .67);
+        border: 1px solid #294CFB;
+        border-radius: 21px;
+        background-color: #fff;
+    }
+
+    .smalltext {
+        font-size: 14px;
+        color: rgba(69, 64, 64, .67);
+        margin: 0;
+    }
+
+    .submit {
+        width: 100%;
+        padding: 18px 0;
+        margin-top: 19px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 740px) {
+    .navlink {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 32px;
+    }
+
+    .phone {
+        display: inline;
+        color: #ffff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-right: 0;
+    }
+
+    .header img {
+        width: 80px;
+    }
+
+    .opit img {
+        margin-bottom: 15px;
+        height: 88px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .Internship-text {
+        font-size: 18px;
+    }
+
+    .service-title {
+        font-size: 22px;
+    }
+
+    .bt3 {
+        max-width: 65%;
+        width: 60%;
+        padding: 14px 18px;
+        font-size: 16px;
+    }
+
+    .principles-cont {
+        display: block;
+    }
+
+    .principle {
+        flex: 1 1 50%;
+        margin-right: 16px;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+
+    .text {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 0 30px 0;
+    }
+
+    .principle-title {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .poproshe {
+        width: 40%;
+        height: 40%;
+    }
+
+    .poproshe2 {
+        width: 45%;
+        height: 45%;
+    }
+
+    .poproshe2 {
+        margin-right: 25px;
+    }
+
+    .poproshe {
+        margin-left: 25px;
+    }
+
+    .blue {
+        padding: 14px 14px;
+    }
+
+    .opit img {
+        margin-bottom: 15px;
+        height: 66px;
+    }
+
+    .info {
+        font-size: 17px;
+    }
+
+    .bt2 {
+        padding: 16px 22px;
+        font-size: 16px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .Internship {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        padding: 6px 10px;
+    }
+
+    .Internship-text {
+        font-size: 16px;
+    }
+
+    .service1, .service2 {
+        width: 41%;
+        min-height: 175px;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .bt3 {
+        max-width: 65%;
+        width: 60%;
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .lustgl {
+        display: block;
+        text-align: center;
+    }
+
+    .form-cont {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .phone {
+        display: inline;
+        color: #ffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 0;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 32px;
+    }
+
+    .header img {
+        width: 60px;
+    }
+
+    .title {
+        font-size: 26px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .bt2 {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .opit img {
+        margin-bottom: 15px;
+        height: 46px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin: 18px 0 40px 0;
+    }
+
+    .who {
+        color: #294CFB;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .stazge {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(61, 61, 61, .47);
+        margin: 0;
+    }
+
+    .service1, .service2 {
+        width: 40%;
+        min-height: 135px;
+    }
+
+    .service-title {
+        font-size: 16px;
+    }
+
+    .bt3 {
+        max-width: 65%;
+        width: 60%;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .service-cont {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    .lastsubtitle {
+        font-size: 18px;
+    }
+
+    .form-input {
+        padding: 14px;
+        margin-bottom: 14px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(69, 64, 64, .67);
+        border: 1px solid #294CFB;
+        border-radius: 21px;
+        background-color: #fff;
+    }
+
+    .page {
+        padding: 15px 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 440px) {
+    .calls {
+        display: none;
+    }
+
+    .nav .navlink:last-child {
+        margin: 0;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .bt2 {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .blue {
+        margin-bottom: 21px;
+    }
+
+    .gldoctor img {
+        margin: 0 3px 0 4px;
+    }
+
+    .who {
+        color: #294CFB;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .stazge {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgba(61, 61, 61, .47);
+        margin: 0;
+    }
+
+    .bt2 {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .Internship-text {
+        font-size: 12px;
+    }
+
+    .Internship {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        padding: 2px 8px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 30px 0;
+    }
+
+    .service-cont {
+        display: block;
+    }
+
+    .service1, .service2 {
+        width: 85%;
+        min-height: 135px;
+        margin-bottom: 20px;
+    }
+
+    .principle {
+        flex: 1 1 50%;
+        margin-right: 0;
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+
+    .smalltext {
+        font-size: 12px;
+        color: rgba(69, 64, 64, .67);
+        margin: 0;
+    }
+
+    .submit {
+        width: 100%;
+        padding: 12px 0;
+        margin-top: 19px;
+        font-size: 18px;
+    }
+}
