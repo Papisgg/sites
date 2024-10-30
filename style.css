@@ -476,6 +476,7 @@ form textarea { resize: vertical; }
     .form-cont {
         max-width: 55%;
         margin-left: 0;
+        margin: 0 auto;
     }
 
     .nav {
