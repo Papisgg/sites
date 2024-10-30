@@ -875,18 +875,6 @@ form textarea { resize: vertical; }
         width: calc(100% - 32px);
         padding-bottom: 50px;
     }
-
-    .services {
-        display: none;
-    }
-    
-    .principles {
-        display: none;
-    }
-
-    .lustgl {
-        display: none;
-    }
 }
 
 @media (max-width: 440px) {
